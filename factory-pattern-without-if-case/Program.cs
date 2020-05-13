@@ -8,7 +8,7 @@ namespace factory_pattern_without_if_case
     {
         static void Main(string[] args)
         {
-            IDocument document = DocumentFactory.CreateDocument("PDF");
+            IDocument document = DocumentFactory.CreateDocument();
             Console.WriteLine("Created Document Type : " + document.GetDocumentType());
 
             document = DocumentFactory.CreateDocument("WORD");

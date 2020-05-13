@@ -6,4 +6,8 @@
     <RootNamespace>factory_pattern_without_if_case</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
 </Project>
