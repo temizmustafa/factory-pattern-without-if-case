@@ -152,7 +152,7 @@ Let's change the structure, factory method looks for configuration not condition
 
 <**ProjectName.Folder.Folder...ClassName**>
 
-Activator.CreateInstance creates a desired class with this parameter.
+Activator.CreateInstance creates a desired class with parameter or reading the configuration.
 
 ```csharp
 // DocumentFactory.cs
